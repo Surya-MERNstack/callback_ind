@@ -43,7 +43,7 @@ function counting(){
     
     setTimeout(() => {
         document.getElementById('go').remove();
-        document.getElementById('indepen').innerHTML = " HAPPY INDEPENDENCE";
+        document.getElementById('indepen').innerHTML = " HAPPY INDEPENDENCE DAY";
     },11000)
 } 
 

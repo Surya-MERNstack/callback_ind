@@ -32,6 +32,7 @@ h1 {
      border-bottom-color: rgb(14, 196, 14) ;
      border-left-color: white;
      animation: loding 0.75s linear infinite;
+     overflow: auto;
 }
 
 #go {
@@ -72,6 +73,7 @@ h1 {
     -webkit-background-clip: text;
     background-position: start;
     color: transparent;
+    width: 30%;
    
 
 }
@@ -88,6 +90,13 @@ h1 {
     font-size: 3rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  
     color: rgb(255, 255, 255); 
+    cursor: pointer;
+    transition: 1s;
+}
+
+#button:hover {
+    filter: blur(1px);
+    transition: 1s;
 }
 
 @media screen and (max-width:600px) {
@@ -112,7 +121,7 @@ h1 {
 
 #go {
     position: absolute;
-    bottom:0;
+     top: 0;
     margin-left: -4rem;
     font-size: 5rem;
     /* background-image: linear-gradient(to right,orange,green);
@@ -129,27 +138,29 @@ h1 {
     padding: 10px;
     position: unset;
     border-radius: 10px;
-    margin-top: 40%;
-    margin-left: 15%;
+    margin-top: 50%;
+    margin-left: 20%;
     border: none;
     background-image: linear-gradient(to right , orange,rgb(10, 177, 10));
     font-size: 3rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  
     color: rgb(255, 255, 255); 
+    cursor: pointer;
 }
 
 
 
 #indepen {
     position: unset;
-    margin-top: -13rem;
-    margin-left: 4.6rem;
+    margin-top: -18rem;
+    margin-left: 10rem;
     font-size: 2rem;
     background-image: url(independ-1.jpg);
     background-clip: text;
     -webkit-background-clip: text;
     background-position: start;
     color: transparent;
+    width:40%;
    
 
 }
@@ -201,6 +212,7 @@ h1 {
     font-size: 3rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  
     color: rgb(255, 255, 255); 
+    cursor: pointer;
 }
 
 
@@ -215,6 +227,7 @@ h1 {
     -webkit-background-clip: text;
     background-position: start;
     color: transparent;
+    width: 60%;
    
 
 }
